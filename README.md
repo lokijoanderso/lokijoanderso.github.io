@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-Trying a new link: [Operation Climate Change](https://github.com/computers-for-learning-20/project/README.md)
+Trying a new link: [Operation Climate Change](https://github.com/computers-for-learning-20/project/blob/main/README.md)
 
 You can use the [editor on GitHub](https://github.com/lokijoanderso/lokijoanderso.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
