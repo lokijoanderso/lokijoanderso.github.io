@@ -1,10 +1,10 @@
 # Kelsey Anderson
 Welcome to my pages!
 
-!img(docs/art/thumbnails/DoorWay.jpg)
-!img(docs/art/thumbnails/FromSadness.jpg)
-!img(docs/art/thumbnails/KnowBeauty.jpg)
-!img(docs/art/thumbnails/JoyForest.jpg)
-!img(docs/art/thumbnails/RainbowScarf.jpg)
-!img(docs/art/thumbnails/SnowFlakes.jpg)
-!img(docs/art/thumbnails/BlueFlowers.jpg)
+![img](https://lokijoanderso.github.io/docs/art/thumbnails/DoorWay.jpeg)
+![img](https://lokijoanderso.github.io/docs/art/thumbnails/FromSadness.jpeg)
+![img](https://lokijoanderso.github.io/docs/art/thumbnails/KnowBeauty.jpeg) <br>
+![img](https://lokijoanderso.github.io/docs/art/thumbnails/JoyForest.jpeg) 
+![img](https://lokijoanderso.github.io/docs/art/thumbnails/RainbowScarf.jpeg)
+![img](https://lokijoanderso.github.io/docs/art/thumbnails/SnowFlakes.jpeg) <br>
+![img](https://lokijoanderso.github.io/docs/art/thumbnails/BlueFlowers.jpeg) 
