@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to My GitHub Page
 
-You can use the [editor on GitHub](https://github.com/lokijoanderso/lokijoanderso.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I am currently a graduate student in the University of Chicago's Master of Science in Computational Analytics for Public Policy program. I'm also a massive community college / open access education fan, a visual artist and lover of learning.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Current Projects
 
-### Markdown
+* **[Operation Climate Change](https://github.com/computers-for-learning-20/project):** with Jesica Ramirez Toscano. A Unity based 3D game teaching about climate change. Final group project for CMSC 309 - Computers for Education - Fall 2020.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Past Projects
 
-```markdown
-Syntax highlighted code block
+* **[Analyzing Transit Use By Area Growth](https://github.com/lokijoanderso/Chicago-Transit-ML-Project):** with Lisa Marie Soriano and Ronald Kwan. A Python machine learning pipline to predict transit use in Chicago by local neighborhood economic factors. Final group project for CAPP 30235 - Introduction to Machine Learning - Spring 2020.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lokijoanderso/lokijoanderso.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* **[Invest in U: Back-to-School Cost Tool](https://github.com/lokijoanderso/School-CBA-Tool-Project):** with Yimeng Qui and Yawei Li. A Python/Flask webscraper to predict cost-benefit analysis on higher education choices. Final group project for CAPP 30122 - Computer Science - Winter 2020.
