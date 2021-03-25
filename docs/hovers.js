@@ -7,13 +7,14 @@
 
     for (var i = 0; i < svgs.length; i++) {
 
-        let doc = svgs[i].getSVGDocument();
+        let doc = svgs[i];
 
         doc.addEventListener("onmouseover", function () {
 
             console.log(EventTarget);
 
-            EventTarget.getElementsByTagName("path")
+            EventTarget..getSVGDocument()
+                .getElementsByTagName("path")
                 .setAttribute("fill", "blue");
         });
     }
