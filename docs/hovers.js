@@ -20,8 +20,23 @@
 
             console.log("doc: ", doc);
 
-            doc.getElementsByTagName("path")
-                .setAttribute("fill", "blue");
+            doc.getElementsByTagName("path")[0]
+                .setAttribute("fill", "#1A5398");
+        });
+
+        link.addEventListener("mouseout", function () {
+
+            let obj = event.target
+                .getElementsByTagName("object");
+
+            console.log("obj: ", obj);
+
+            let doc = obj[0].contentDocument;
+
+            console.log("doc: ", doc);
+
+            doc.getElementsByTagName("path")[0]
+                .setAttribute("fill", "black");
         });
     }
 
