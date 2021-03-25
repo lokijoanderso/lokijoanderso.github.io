@@ -1,9 +1,12 @@
 ﻿window.onload = function () {
 
-    // Get the Object by ID
+    // Get the a links with class="svg"
 
     let svgs = document
         .getElementsByClassName("svg");
+
+
+    // interate through them to attach hover listeners
 
     for (var i = 0; i < svgs.length; i++) {
 
