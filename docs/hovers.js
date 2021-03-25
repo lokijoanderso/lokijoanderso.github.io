@@ -3,15 +3,15 @@
     // Get the Object by ID
 
     let svgs = document
-        .getElementsByTagName("object");
+        .getElementsByClassName("svg");
 
     for (var i = 0; i < svgs.length; i++) {
 
-        let doc = svgs[i];
+        let link = svgs[i];
 
-        doc.addEventListener("onmouseover", function () {
+        link.addEventListener("onmouseover", function () {
 
-            console.log(EventTarget);
+            console.log("mouse over: ", EventTarget);
 
             EventTarget.getSVGDocument()
                 .getElementsByTagName("path")
