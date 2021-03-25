@@ -13,12 +13,9 @@
 
         console.log("get doc: ", doc);
 
-        let path = doc.getElementsByTagName("path");
-
-        console.log("get path: ", path);
-
-        path.addEventListener("onmouseover", function () {
-            path.setAttribute("fill", "blue");
+        doc.addEventListener("onmouseover", function () {
+            EventTarget.getElementsByTagName("path")
+                .setAttribute("fill", "blue");
         });
     }
 
