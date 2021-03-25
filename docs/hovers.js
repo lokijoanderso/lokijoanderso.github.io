@@ -9,12 +9,18 @@
 
         let link = svgs[i];
 
-        link.addEventListener("onmouseover", function () {
+        link.addEventListener("mouseover", function () {
 
-            console.log("mouse over: ", EventTarget);
+            let obj = event.target
+                .getElementsByTagName("object");
 
-            EventTarget.getSVGDocument()
-                .getElementsByTagName("path")
+            console.log("obj: ", obj);
+
+            let doc = obj[0].contentDocument;
+
+            console.log("doc: ", doc);
+
+            doc.getElementsByTagName("path")
                 .setAttribute("fill", "blue");
         });
     }
