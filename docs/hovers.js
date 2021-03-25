@@ -13,7 +13,7 @@
 
             console.log(EventTarget);
 
-            EventTarget..getSVGDocument()
+            EventTarget.getSVGDocument()
                 .getElementsByTagName("path")
                 .setAttribute("fill", "blue");
         });
