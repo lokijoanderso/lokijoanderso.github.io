@@ -20,7 +20,7 @@
 
             console.log("doc: ", doc);
 
-            doc.getElementsByTagName("path")
+            doc.getElementsByTagName("path")[0]
                 .setAttribute("fill", "blue");
         });
     }
