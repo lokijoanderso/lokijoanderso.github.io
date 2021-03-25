@@ -1,0 +1,379 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+
+        dark blue: #2B4E8F;
+        mid teal: #4C8D9F;
+        lighter teal: #B5D3D1;
+        lightest teal: #DEF1EF
+  */
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #4C8D9F;
+}
+
+a :hover {
+        color: black;
+    }
+
+a :active {
+        color: black;
+    }
+
+a.svg {
+        position: relative;
+        display: inline-block;
+        padding: 0px 5px;
+    }
+
+a.svg:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+.link :hover {
+    fill: blue;
+}
+
+#page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+}
+
+div.head {
+    background-image: url("images/bg.jpeg");
+    background-size: cover;
+    background-color: #4C8D9F;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.center-label {
+    background: white;
+    width: 30%;
+    padding: 50px 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+div.foot {
+    background-image: url("images/bg.jpeg");
+    background-size: cover;
+    background-color: #4C8D9F;
+    overflow: hidden;
+    width: 100%;
+    min-height: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: lowercase;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #666666;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: lighter;
+    color: #4C8D9F;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    margin: 30px 5px 0px 5px;
+
+}
+
+h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 5px 5px 5px 5px;
+}
+
+h4 :hover {
+        text-decoration: underline;
+    }
+
+.project-img h3{
+    text-transform:capitalize;
+    text-align: left;
+}
+.project-img h4 {
+    text-align: left;
+}
+
+.project-img p { margin: 5px;}
+
+.project-img :hover a{
+    text-decoration: underline;
+}
+
+.project-img, .art-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    max-width: 50%;
+    background: #DEF1EF;
+    text-align: left;
+}
+
+
+
+.project-img:nth-of-type(2n+1){
+    flex-direction:row-reverse;
+}
+
+.project {
+    margin: 0px 20px;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    background: white;
+    margin-top: 20px;
+}
+
+.menu #center-menu {
+        padding: 5px 1px;
+        margin: 0px;
+        min-width: 25%;
+        text-align: center;
+    }
+
+.menu #center-menu-stroke {
+    border-right: 2px solid #4C8D9F;
+    padding: 5px 1px;
+    margin: 0px;
+    min-width: 25%;
+    text-align: center;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 2px solid #4C8D9F;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+    .section-title h2 {
+        padding: 0px;
+        margin: 30px 0px 5px 0px;
+        color: #4C8D9F;
+    }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
+
+div #bio {
+    width: 50%;
+    max-width: 600px;
+    color: #333333;
+    font-style:italic;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.deg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.year {
+    width: 100px;
+    margin: 10px 0px;
+}
+
+.year svg{
+    margin: 0px;
+    padding: 0px;
+    height: 71px;
+    width: 71px;
+}
+
+.year svg text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+p.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+}
+
+p.when {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: #666666;
+    margin: 10px 0px 0px 0px;
+}
+
+p.where {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    color: #333333;
+    margin: 0px 0px 10px 0px;
+}
+
+#about {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.right {
+    text-align: left;
+    padding: 0px 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+
+.right h2 {
+    text-align: left;
+    font-weight: normal;
+
+}
+.right h3 {
+        max-width: 600px;
+        color: black;
+        font-style: normal;
+        font-size: 18px;
+        text-align: left;
+        text-transform: unset; 
+}
+
+.skills {
+    background-color: #B5D3D1;
+    margin: 20px 0px 10px 0px;
+    padding: 15px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.skills h2 {
+    color: #333333;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.skills p {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    font-size: 12px;
+}
+
+.bottom_links{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.bottom_links a{
+    padding: 5px;
+}
+
+.art-img {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .art {
+        margin: 5px;
+    }
+
+        .art img {
+            padding: 0px;
+            margin: 0px;
+            border: solid;
+            border-color: #1A5398;
+            border-width: 10px;
+        }
