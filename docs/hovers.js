@@ -5,15 +5,14 @@
     let svgs = document
         .getElementsByTagName("object");
 
-
     for (var i = 0; i < svgs.length; i++) {
 
-        console.log("loop 1: ", svgs[i]);
         let doc = svgs[i].getSVGDocument();
 
-        console.log("get doc: ", doc);
-
         doc.addEventListener("onmouseover", function () {
+
+            console.log(EventTarget);
+
             EventTarget.getElementsByTagName("path")
                 .setAttribute("fill", "blue");
         });
