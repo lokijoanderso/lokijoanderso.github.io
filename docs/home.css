@@ -79,9 +79,10 @@ div.center-label {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
+    justify-items: center;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 
 div.foot {
