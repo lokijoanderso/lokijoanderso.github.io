@@ -74,6 +74,7 @@ div.head {
 div.center-label {
     background: white;
     width: 30%;
+    min-width: 300px;
     padding: 50px 10px;
     margin: 30px;
     display: flex;
