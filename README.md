@@ -1,6 +1,6 @@
 ## Welcome to My GitHub Page
 
-I am currently a graduate student in the University of Chicago's Master of Science in Computational Analytics for Public Policy program. I'm also a massive community college / open access education fan, a visual artist and lover of learning.
+I currently work at the University of Puget Sound in their Institutional Research office. I'm a recent graduate of the University of Chicago's Master of Science in Computational Analytics for Public Policy program. I'm also a massive community college / open access education fan, a visual artist and lover of learning.
 
 ### Current Projects
 
